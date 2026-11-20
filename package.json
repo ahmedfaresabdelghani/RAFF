@@ -1,0 +1,15 @@
+{
+  "name": "raff",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "RAFF - supermarket warehouse carton inventory PWA (Phase 1 MVP)",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "lint:security": "node tests/security-lint.mjs",
+    "serve": "npx --yes serve -l 8080 ."
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.0.0"
+  }
+}
